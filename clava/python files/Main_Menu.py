@@ -24,12 +24,13 @@ class Ui_MainWindow(object):
         self.Play.setFont(font)
         self.Play.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Play.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                        "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                        "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                        "}\n"
+                        "\n"
+                        "QPushButton:pressed {\n"
+                        "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                        "}")
         self.Play.setObjectName("Play")
         self.Settings = QtWidgets.QPushButton(self.centralwidget)
         self.Settings.setGeometry(QtCore.QRect(740, 760, 381, 191))
@@ -38,12 +39,13 @@ class Ui_MainWindow(object):
         self.Settings.setFont(font)
         self.Settings.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Settings.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                            "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                            "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                            "}\n"
+                            "\n"
+                            "QPushButton:pressed {\n"
+                            "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                            "}")
         self.Settings.setObjectName("Settings")
         self.Ruls = QtWidgets.QPushButton(self.centralwidget)
         self.Ruls.setGeometry(QtCore.QRect(740, 540, 381, 191))
@@ -52,12 +54,13 @@ class Ui_MainWindow(object):
         self.Ruls.setFont(font)
         self.Ruls.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Ruls.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                         "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                         "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                         "}\n"
+                         "\n"
+                         "QPushButton:pressed {\n"
+                         "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                         "}")
         self.Ruls.setObjectName("Ruls")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(350, 80, 1141, 181))
@@ -78,12 +81,13 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.Exit.setFont(font)
         self.Exit.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                         "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                         "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                         "}\n"
+                         "\n"
+                         "QPushButton:pressed {\n"
+                         "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                         "}")
         self.Exit.setObjectName("Exit")
         self.label_2.raise_()
         self.Play.raise_()
