@@ -32,6 +32,9 @@ class Ui_Clause_Eng_Window(object):
         self.VvodTexta = QtWidgets.QPlainTextEdit(self.centralwidget)
         self.VvodTexta.setGeometry(QtCore.QRect(200, 600, 1500, 300))
         self.VvodTexta.setObjectName("VvodTexta")
+        font = QFont()
+        font.setPointSize(15)
+        self.VvodTexta.setFont(font)
         self.VvodTexta.textChanged.connect(self.handle_text_changed)
         
         self.KartinkaKlavish = QtWidgets.QLabel(self.centralwidget)
