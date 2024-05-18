@@ -2,6 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt, pyqtSignal
 from PyQt5.QtWidgets import QMessageBox
 import time
+from PyQt5.QtGui import QFont
 from path_fon import get_fon
 
 class Ui_Clause_Eng_Window(object):
