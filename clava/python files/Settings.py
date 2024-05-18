@@ -87,36 +87,40 @@ class Ui_Settings_Window(object):
         self.ButtonBack.clicked.connect(self.showMainWindow)
         
         self.BFon.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                        "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                        "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                        "}\n"
+                        "\n"
+                        "QPushButton:pressed {\n"
+                        "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                        "}")
         
         self.BFon_3.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                           "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                           "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                           "}\n"
+                           "\n"
+                           "QPushButton:pressed {\n"
+                           "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                           "}")
         
         self.BFon_2.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                           "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                           "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                           "}\n"
+                           "\n"
+                           "QPushButton:pressed {\n"
+                           "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                           "}")
     
         self.ButtonBack.setStyleSheet("QPushButton {\n"
-"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0          rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
-"}")
+                               "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(36, 36, 36, 255), stop:1 rgba(120, 120, 120, 255));\n"
+                               "color: #d1d1d1; /* Светло-серый цвет текста */\n"
+                               "}\n"
+                               "\n"
+                               "QPushButton:pressed {\n"
+                               "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(97, 97, 97, 255), stop:1 rgba(212, 212, 212, 255));\n"
+                               "}")
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
