@@ -2,6 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QMessageBox
 import time
+from PyQt5.QtGui import QFont
 from path_fon import get_fon
 
 class Ui_Clause_Ru_Window(object):
@@ -29,9 +30,12 @@ class Ui_Clause_Ru_Window(object):
         self.Text.setStyleSheet("background-color: rgb(140, 140, 140);")
         self.Text.setObjectName("Text")
         
-        self.VvodTexta = QtWidgets.QPlainTextEdit(self.centralwidget)
+        sself.VvodTexta = QtWidgets.QPlainTextEdit(self.centralwidget)
         self.VvodTexta.setGeometry(QtCore.QRect(200, 600, 1500, 300))
         self.VvodTexta.setObjectName("VvodTexta")
+        font = QFont()
+        font.setPointSize(15)  # Установка размера шрифта
+        self.VvodTexta.setFont(font)  # Применение шрифта к текстовому полю
         self.VvodTexta.textChanged.connect(self.handle_text_changed)
         
         self.KartinkaKlavish = QtWidgets.QLabel(self.centralwidget)
