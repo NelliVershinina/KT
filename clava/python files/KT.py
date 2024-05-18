@@ -24,6 +24,8 @@ class ApplicationWindow(QMainWindow):
         self.player.setMedia(QMediaContent(QUrl.fromLocalFile("6e255b4b6b8375e.mp3")))
         self.player.play()
 
+        self.setMinimumSize(1900, 1900)
+
         # Для управления переключением окон
         self.stacked_widget = QStackedWidget()
         self.setCentralWidget(self.stacked_widget)
